@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    font-weight: 900;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+}
+
+input, label, select {
+    margin-top: 15px;
+}
+
+input {
+    width: 350px;
+    border: silver solid 1px;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    outline: none;
+}
+
+label {
+    color: gray;
+}
+
+select {
+    width: 100px;
+}
+
+.btn {
+    width: 130px;
+    background: #ff5e5e;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transition: 0.5s all ease;
+    transform: scale(1.05);
+}
+
+
+
