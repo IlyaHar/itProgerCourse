@@ -1,0 +1,25 @@
+ mkdir gitProject
+cd gitProject
+git init
+touch style.sass index.php
+mkdir bin admin config
+touch .gitignore
+nano .gitignore
+git add .
+git status
+git commit -m 'added index.php and .gitignore'
+git branch new_branch
+git checkout new_branch
+mkdir blog
+touch blog/index.js blog/index.html
+git status
+git add .
+git commit -m 'created blog'
+git checkout master
+git status
+git remote add origin git@github.com:IlyaHar/Repository.git
+git push -u origin master
+
+
+
+
