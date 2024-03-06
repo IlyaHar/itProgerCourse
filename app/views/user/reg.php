@@ -14,7 +14,7 @@
 <p><strong>Email: </strong> <?= $data['email'] ?></p>
 <?php endif; ?>
 <h1>Форма регистрации</h1>
-<form action="reg.php" method="POST">
+<form action="reg" method="POST">
     <input type="text" name="login" placeholder="Введите логин" /><br><br>
     <input type="email" name="email" placeholder="Введите email" /><br><br>
     <input type="submit" />
