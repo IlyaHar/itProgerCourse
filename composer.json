@@ -1,0 +1,22 @@
+{
+    "name": "vendor/name",
+    "description": "It's my composer project :)",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Name\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "IlyaHar",
+            "email": "harcenkoila278@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "dev-master",
+        "erusev/parsedown": "dev-master"
+    }
+}
